@@ -1,3 +1,6 @@
+//Chen Skanderany, id: 206508541
+//Mili Segal, id: 208297333
+
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 

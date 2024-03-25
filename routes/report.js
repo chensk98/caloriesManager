@@ -1,3 +1,6 @@
+//Chen Skanderany, id: 206508541
+//Mili Segal, id: 208297333
+
 const express = require('express');
 const calories = require('../models/calories');
 const router = express.Router();
@@ -36,7 +39,7 @@ router.get('/report', async (req, res) => {
         }
 
 
-        // Send the categorized report back to the client
+        // Send the categorized json report back to the client
         res.status(200).json(report);
     } catch (error) {
         console.error('Error retrieving report:', error);
